@@ -49,7 +49,7 @@ public class UserController {
     @RequestMapping("delUser")
     public void delUser(UserInfo userInfo){
         userInfoService.delUser(userInfo);
-        System.out.println("aaaaa");
+
     }
 
 }
